@@ -1,0 +1,62 @@
+/*<!--S nav-->*/
+.site_nav {
+    height:30px;
+    line-height: 30px;
+    background-color: #F1F1F1;
+}
+
+.site_nav_send,
+.site_nav_r .site_nav_r_fore {
+    height: 30px;
+    padding:0 25px 0 10px ;
+    position: relative;
+}
+.site_nav_send i,
+.site_nav_r_fore i {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    font: 400 15px/15px "宋体";/*15号字体大小，但是高只有8*/
+    width: 15px;
+    height: 8px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.site_nav_send i s,
+.site_nav_r_fore i s{
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+.site_nav_send:hover i,
+.site_nav_r_fore:hover i {
+   transform: rotate(180deg);
+}
+.site_nav_send:hover,
+.site_nav_r_fore:hover {
+    background-color: #fff;
+}
+.site_nav_r ul li {
+    float: left;
+    padding: 0 10px;
+}
+.site_nav_r .site_nav_r_line {
+    width: 1px;
+    height: 12px;
+    background-color: #DDDDDD;
+    padding: 0;
+    margin-top: 9px;
+}
+
+
+/*<!--S nav-->*/
+/*<!--E nav-->*/
+
+/*<!--S nav-->*/
+/*<!--E nav-->*/
+
+/*<!--S nav-->*/
+/*<!--E nav-->*/
+
+/*<!--S nav-->*/
+/*<!--E nav-->*/
